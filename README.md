@@ -30,7 +30,14 @@ Admins can create new workshops and back up data easily.
   - `re`
 
 ---
+## Database
+The system uses **SQLite** as its database to store all information securely.  
+It has three main tables:
 
+1. **stu** – stores student information including ID, first and last name, hashed password, email, and mobile number.
+2. **workshop** – stores workshop details such as workshop ID, name, location, capacity, and schedule (date & time).
+3. **reservation** – tracks which students have booked which workshops, linking the `stu` and `workshop` tables.
+---
 ## How to Run
 Clone the repository
 
