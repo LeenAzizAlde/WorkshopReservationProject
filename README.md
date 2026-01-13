@@ -9,7 +9,7 @@ Admins can create new workshops and back up data easily.
 
 ## Features
 - Student registration with input validation (ID, email, phone)
-- Secure login with SHA-256 password hashing
+- Secure login with password hashing
 - Workshop booking with capacity management
 - View upcoming and booked workshops for each student
 - Graphical User Interface (GUI) built with Tkinter
@@ -32,7 +32,5 @@ Admins can create new workshops and back up data easily.
 ---
 
 ## How to Run
-1. Clone the repository:
-```bash
-git clone <your-repo-link>
+Clone the repository
 
